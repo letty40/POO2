@@ -11,7 +11,7 @@ class Truck extends Vehicule{
     public function StorageCapacity(int $storageCapacity)
     {
         $sentence = "";
-        if($storageCapacity ===100){
+        if($storageCapacity >100){
             return "full !";}
         else {
             return "in filling";
